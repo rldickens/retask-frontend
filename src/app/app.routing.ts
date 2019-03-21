@@ -1,11 +1,11 @@
 ﻿import { Routes, RouterModule } from '@angular/router';
 
-import { HomeComponent } from './home';
-import { LoginComponent } from './login';
-import { RegisterComponent } from './register';
-import { CalendarComponent } from '@app/calendar/calendar.component';
-import { ForgotpasswordComponent } from '@app/forgotpassword/forgotpassword.component';
-import { ForgotusernameComponent } from '@app/forgotusername/forgotusername.component';
+import { HomeComponent } from '@app/pages/home';
+import { LoginComponent } from '@app/pages/login';
+import { RegisterComponent } from '@app/pages/register';   
+import { CalendarComponent } from '@app/pages/calendar/calendar.component';
+import { ForgotpasswordComponent } from '@app/pages/forgotpassword/forgotpassword.component';
+import { ForgotusernameComponent } from '@app/pages/forgotusername/forgotusername.component';
 import { AuthGuard } from './_guards';
 
 const appRoutes: Routes = [
