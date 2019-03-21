@@ -23,8 +23,9 @@ import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
 import { CommonModule } from '@angular/common';
 import { FlatpickrModule } from 'angularx-flatpickr';
 import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
-import { ForgotpasswordComponent } from '@app/pages/forgotpassword/forgotpassword.component';;
-import { ForgotusernameComponent } from '@app/pages/forgotusername/forgotusername.component'
+import { ForgotpasswordComponent } from '@app/pages/forgotpassword/forgotpassword.component';
+import { ForgotusernameComponent } from '@app/pages/forgotusername/forgotusername.component';
+
 
 @NgModule({
     imports: [
@@ -52,9 +53,8 @@ import { ForgotusernameComponent } from '@app/pages/forgotusername/forgotusernam
         LoginComponent,
         RegisterComponent,
         CalendarComponent,
-        ForgotpasswordComponent
-,
-        ForgotusernameComponent
+        ForgotpasswordComponent,
+        ForgotusernameComponent,
     ],
     providers: [
     ],
